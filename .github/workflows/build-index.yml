@@ -1,0 +1,33 @@
+name: Validate and Build Deck Index
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate decks and rebuild index
+        run: node scripts/build-index.mjs
+
+      - name: Commit updated index.json on main
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet index.json; then
+            git add index.json
+            git commit -m "Update deck catalog index"
+            git push
+          fi

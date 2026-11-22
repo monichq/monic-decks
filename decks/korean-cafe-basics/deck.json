@@ -1,0 +1,40 @@
+{
+  "id": "korean-cafe-basics",
+  "title": "Korean Café & Ordering Basics",
+  "description": "Polite counter expressions, drink customizations, and bakery vocabulary heard daily in Seoul cafés.",
+  "icon": "☕",
+  "color": "#EC4899",
+  "category": "languages",
+  "subject": "korean",
+  "tags": ["korean", "hangul", "cafe", "ordering"],
+  "fields": [
+    {
+      "column": "korean",
+      "label": "Korean",
+      "type": "text",
+      "lang": "ko-KR",
+      "role": "subject"
+    },
+    {
+      "column": "romanization",
+      "label": "Romanization",
+      "type": "text",
+      "lang": "en-US",
+      "role": "none"
+    },
+    {
+      "column": "english",
+      "label": "Meaning",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "note",
+      "label": "Usage Tip",
+      "type": "text",
+      "lang": "en-US",
+      "role": "none"
+    }
+  ]
+}

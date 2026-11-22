@@ -1,0 +1,33 @@
+{
+  "id": "cognitive-biases",
+  "title": "Cognitive Biases & Decision Models",
+  "description": "Mental heuristics, behavioral economics fallacies, and statistical reasoning traps in everyday decisions.",
+  "icon": "🎭",
+  "color": "#F59E0B",
+  "category": "humanities",
+  "subject": "psychology",
+  "tags": ["psychology", "behavioral-economics", "critical-thinking"],
+  "fields": [
+    {
+      "column": "bias",
+      "label": "Bias / Heuristic",
+      "type": "text",
+      "lang": "en-US",
+      "role": "subject"
+    },
+    {
+      "column": "mechanism",
+      "label": "How It Distorts Judgment",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "countermeasure",
+      "label": "Debiasing Habit",
+      "type": "text",
+      "lang": "en-US",
+      "role": "none"
+    }
+  ]
+}

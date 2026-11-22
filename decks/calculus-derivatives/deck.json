@@ -1,0 +1,33 @@
+{
+  "id": "calculus-derivatives",
+  "title": "Calculus Core Rules & Identities",
+  "description": "Essential differentiation rules, trigonometric derivatives, and fundamental theorem forms for quick recall.",
+  "icon": "📐",
+  "color": "#10B981",
+  "category": "math",
+  "subject": "calculus",
+  "tags": ["math", "calculus", "derivatives", "stem"],
+  "fields": [
+    {
+      "column": "expression",
+      "label": "Function / Rule",
+      "type": "text",
+      "lang": "en-US",
+      "role": "subject"
+    },
+    {
+      "column": "derivative",
+      "label": "Derivative / Result",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "pitfall",
+      "label": "Common Trap",
+      "type": "text",
+      "lang": "en-US",
+      "role": "none"
+    }
+  ]
+}

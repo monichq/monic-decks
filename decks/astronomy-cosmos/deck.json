@@ -1,0 +1,33 @@
+{
+  "id": "astronomy-cosmos",
+  "title": "Astrophysics & Cosmic Scale",
+  "description": "Stellar evolution, orbital mechanics, standard candles, and observational phenomena across the cosmos.",
+  "icon": "🔭",
+  "color": "#3B82F6",
+  "category": "science",
+  "subject": "astronomy",
+  "tags": ["astronomy", "astrophysics", "stars", "cosmology"],
+  "fields": [
+    {
+      "column": "term",
+      "label": "Cosmic Concept",
+      "type": "text",
+      "lang": "en-US",
+      "role": "subject"
+    },
+    {
+      "column": "definition",
+      "label": "Physical Principle",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "context",
+      "label": "Key Benchmark",
+      "type": "text",
+      "lang": "en-US",
+      "role": "none"
+    }
+  ]
+}

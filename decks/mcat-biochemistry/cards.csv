@@ -1,0 +1,25 @@
+id,topic,answer,regulation
+pfk-1,Phosphofructokinase-1 (PFK-1),"Committed rate-limiting step of glycolysis (F6P -> F-1,6-BP)","Activated by AMP and F-2,6-BP; inhibited by ATP and citrate."
+isocitrate-dh,Isocitrate Dehydrogenase,Rate-limiting enzyme of the Citric Acid Cycle,"Activated by ADP and Ca²⁺; inhibited by ATP and NADH."
+competitive-inhib,Competitive Inhibitor Kinetics,"Increases apparent Km; Vmax remains unchanged",Binds free enzyme active site; outcompeted at high [S].
+uncompetitive-inhib,Uncompetitive Inhibitor Kinetics,"Decreases both apparent Km and apparent Vmax equally",Binds exclusively to the ES complex; parallel Lineweaver-Burk lines.
+histidine-pka,Histidine Side-Chain pKa,~6.0 (physiological buffer residue),Only common amino acid side chain substantially protonated/deprotonated near pH 7.4.
+hmg-coa-reductase,HMG-CoA Reductase,Rate-limiting enzyme of cholesterol biosynthesis,Induced by insulin; target of competitive inhibition by statins.
+carnitine-shuttle,Carnitine Acyltransferase I,Rate-limiting enzyme importing long-chain fatty acyl-CoA into mitochondria,Inhibited by malonyl-CoA so synthesis and beta-oxidation don't run together.
+g6pd,Glucose-6-Phosphate Dehydrogenase (G6PD),Rate-limiting enzyme of the Pentose Phosphate Pathway,Generates NADPH for glutathione reduction and lipid synthesis.
+noncompetitive-inhib,Noncompetitive Inhibitor Kinetics,Decreases Vmax; apparent Km remains unchanged,Binds allosteric site on both E and ES with equal affinity; lines intersect on the x-axis.
+mixed-inhib,Mixed Inhibitor Kinetics,Decreases Vmax; apparent Km increases (α > α') or decreases (α' > α),Binds both E and ES with unequal affinity; lines intersect to the left of the y-axis.
+lineweaver-burk,Lineweaver-Burk Plot Axes & Intercepts,Double-reciprocal plot of 1/v₀ vs. 1/[S]; y-int = 1/Vmax and x-int = -1/Km,Slope equals Km / Vmax; linearizes Michaelis-Menten curves to distinguish inhibitor classes.
+catalytic-efficiency,Catalytic Efficiency (kcat / Km),Ratio measuring how effectively an enzyme converts low [S] to product (M⁻¹s⁻¹),kcat = Vmax / [E]total (turnover number); diffusion-limited maximum is ~10⁸–10⁹ M⁻¹s⁻¹.
+cooperativity-hill,Positive Cooperativity (Hill Coefficient n > 1),Sigmoidal binding or velocity curve where ligand binding increases affinity at remaining sites,Classic example is hemoglobin O₂ binding (T-state to R-state); distinct from hyperbolic myoglobin.
+acidic-amino-acids,"Acidic Amino Acids (Asp, Glu)",Negatively charged carboxylate side chains at physiological pH 7.4,"Side-chain pKa ~3.7 (Asp) and ~4.3 (Glu); frequently stabilize salt bridges or chelate Mg²⁺."
+basic-amino-acids,"Basic Amino Acids (Lys, Arg, His)",Positively charged nitrogenous side chains (Lys and Arg fully protonated at pH 7.4),"Side-chain pKa ~10.5 (Lys), ~12.5 (Arg), and ~6.0 (His); Lys/Arg are enriched in histones to bind DNA."
+proline-glycine,Proline & Glycine Secondary Structure Effects,Both act as α-helix breakers while favoring tight β-turns,"Proline's cyclic ring locks φ rotation; glycine's tiny H side chain makes it achiral and overly flexible."
+cysteine-disulfide,Cysteine Disulfide Bonds (Cystine),Covalent S–S bond formed via oxidation of two cysteine thiol (-SH) side chains,"Stabilizes extracellular proteins; cleaved by reducing agents (DTT, β-ME) in reducing SDS-PAGE."
+aromatic-uv,"Aromatic Amino Acid UV Absorbance (Trp, Tyr, Phe)",Conjugated aromatic rings absorb UV light near 280 nm (strongest in tryptophan),Basis for A280 protein quantification; phenylalanine absorbs more weakly near 257 nm.
+glycogen-synthase-phos,Glycogen Synthase vs. Glycogen Phosphorylase,Rate-limiting enzymes of glycogenesis (Synthase) and glycogenolysis (Phosphorylase),Insulin dephosphorylates/activates Synthase; glucagon/epinephrine phosphorylates/activates Phosphorylase.
+fbpase-1,"Fructose-1,6-Bisphosphatase-1 (FBPase-1)","Rate-limiting enzyme of gluconeogenesis (F-1,6-BP -> F6P)","Inhibited by AMP and F-2,6-BP; reciprocally regulated opposite PFK-1 to prevent futile cycling."
+acetyl-coa-carboxylase,Acetyl-CoA Carboxylase (ACC),Rate-limiting enzyme of fatty acid synthesis (Acetyl-CoA -> Malonyl-CoA),"Activated by citrate and insulin (dephosphorylated); inhibited by palmitoyl-CoA, glucagon, and AMPK."
+cps-i,Carbamoyl Phosphate Synthetase I (CPS-I),Rate-limiting mitochondrial enzyme of the Urea Cycle,Strictly requires N-acetylglutamate (NAG) as an obligate allosteric activator.
+pdh-complex,Pyruvate Dehydrogenase (PDH) Complex,"Irreversibly converts pyruvate to acetyl-CoA, linking glycolysis to the Citric Acid Cycle","Inhibited by acetyl-CoA, NADH, and ATP; requires 5 cofactors (TPP, lipoate, CoA, FAD, NAD⁺)."
+phosphorylation-residues,"Serine, Threonine, and Tyrosine (Kinase Targets)",Hydroxyl-containing (-OH) side chains phosphorylated by protein kinases,"Adds a bulky -2 phosphate group from ATP to toggle activity (often mimicked experimentally by Asp/Glu)."

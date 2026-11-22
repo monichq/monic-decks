@@ -1,0 +1,47 @@
+{
+  "id": "japanese-travel",
+  "title": "Japanese Transit & Travel Essentials",
+  "description": "High-frequency station signage, ticket gates, IC card phrases, and train announcements with visual signage diagrams.",
+  "icon": "🚅",
+  "color": "#0EA5E9",
+  "category": "languages",
+  "subject": "japanese",
+  "tags": ["japanese", "travel", "kanji", "transit", "media"],
+  "fields": [
+    {
+      "column": "expression",
+      "label": "Japanese",
+      "type": "text",
+      "lang": "ja-JP",
+      "role": "subject"
+    },
+    {
+      "column": "reading",
+      "label": "Reading",
+      "type": "text",
+      "lang": "ja-JP",
+      "role": "none"
+    },
+    {
+      "column": "meaning",
+      "label": "English Meaning",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "diagram",
+      "label": "Visual Sign",
+      "type": "image",
+      "lang": "en-US",
+      "role": "none"
+    },
+    {
+      "column": "note",
+      "label": "Travel Tip",
+      "type": "text",
+      "lang": "en-US",
+      "role": "none"
+    }
+  ]
+}

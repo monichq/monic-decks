@@ -1,0 +1,33 @@
+{
+  "id": "neurobiology-memory",
+  "title": "Neurobiology of Memory & Plasticity",
+  "description": "Synaptic plasticity, hippocampal consolidation, and cellular mechanisms of long-term potentiation with receptor diagram.",
+  "icon": "🧠",
+  "color": "#6366F1",
+  "category": "science",
+  "subject": "neuroscience",
+  "tags": ["neuroscience", "memory", "ltp", "biology", "media"],
+  "fields": [
+    {
+      "column": "concept",
+      "label": "Mechanism / Structure",
+      "type": "text",
+      "lang": "en-US",
+      "role": "subject"
+    },
+    {
+      "column": "explanation",
+      "label": "Cellular Function",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "diagram",
+      "label": "Synapse Diagram",
+      "type": "image",
+      "lang": "en-US",
+      "role": "none"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "version": 1,
+  "decks": [
+    {
+      "id": "astronomy-cosmos",
+      "title": "Astrophysics & Cosmic Scale",
+      "description": "Stellar evolution, orbital mechanics, standard candles, and observational phenomena across the cosmos.",
+      "icon": "🔭",
+      "color": "#3B82F6",
+      "category": "science",
+      "subject": "astronomy",
+      "tags": [
+        "astronomy",
+        "astrophysics",
+        "stars",
+        "cosmology"
+      ],
+      "cardCount": 22,
+      "path": "decks/astronomy-cosmos",
+      "fields": [
+        {
+          "column": "term",
+          "label": "Cosmic Concept",
+          "type": "text",
+          "lang": "en-US",
+          "role": "subject"
+        },
+        {
+          "column": "definition",
+          "label": "Physical Principle",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "context",
+          "label": "Key Benchmark",
+          "type": "text",
+          "lang": "en-US",
+          "role": "none"
+        }
+      ],
+      "hasMedia": false
+    },
+    {
+      "id": "calculus-derivatives",
+      "title": "Calculus Core Rules & Identities",
+      "description": "Essential differentiation rules, trigonometric derivatives, and fundamental theorem forms for quick recall.",
+      "icon": "📐",
+      "color": "#10B981",
+      "category": "math",
+      "subject": "calculus",
+      "tags": [
+        "math",
+        "calculus",
+        "derivatives",
+        "stem"
+      ],
+      "cardCount": 24,
+      "path": "decks/calculus-derivatives",
+      "fields": [
+        {
+          "column": "expression",
+          "label": "Function / Rule",
+          "type": "text",
+          "lang": "en-US",
+          "role": "subject"
+        },
+        {
+          "column": "derivative",
+          "label": "Derivative / Result",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "pitfall",
+          "label": "Common Trap",
+          "type": "text",
+          "lang": "en-US",
+          "role": "none"
+        }
+      ],
+      "hasMedia": false
+    },
+    {
+      "id": "cognitive-biases",
+      "title": "Cognitive Biases & Decision Models",
+      "description": "Mental heuristics, behavioral economics fallacies, and statistical reasoning traps in everyday decisions.",
+      "icon": "🎭",
+      "color": "#F59E0B",
+      "category": "humanities",
+      "subject": "psychology",
+      "tags": [
+        "psychology",
+        "behavioral-economics",
+        "critical-thinking"
+      ],
+      "cardCount": 22,
+      "path": "decks/cognitive-biases",
+      "fields": [
+        {
+          "column": "bias",
+          "label": "Bias / Heuristic",
+          "type": "text",
+          "lang": "en-US",
+          "role": "subject"
+        },
+        {
+          "column": "mechanism",
+          "label": "How It Distorts Judgment",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "countermeasure",
+          "label": "Debiasing Habit",
+          "type": "text",
+          "lang": "en-US",
+          "role": "none"
+        }
+      ],
+      "hasMedia": false
+    },
+    {
+      "id": "japanese-travel",
+      "title": "Japanese Transit & Travel Essentials",
+      "description": "High-frequency station signage, ticket gates, IC card phrases, and train announcements with visual signage diagrams.",
+      "icon": "🚅",
+      "color": "#0EA5E9",
+      "category": "languages",
+      "subject": "japanese",
+      "tags": [
+        "japanese",
+        "travel",
+        "kanji",
+        "transit",
+        "media"
+      ],
+      "cardCount": 24,
+      "path": "decks/japanese-travel",
+      "fields": [
+        {
+          "column": "expression",
+          "label": "Japanese",
+          "type": "text",
+          "lang": "ja-JP",
+          "role": "subject"
+        },
+        {
+          "column": "reading",
+          "label": "Reading",
+          "type": "text",
+          "lang": "ja-JP",
+          "role": "none"
+        },
+        {
+          "column": "meaning",
+          "label": "English Meaning",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "diagram",
+          "label": "Visual Sign",
+          "type": "image",
+          "lang": "en-US",
+          "role": "none"
+        },
+        {
+          "column": "note",
+          "label": "Travel Tip",
+          "type": "text",
+          "lang": "en-US",
+          "role": "none"
+        }
+      ],
+      "hasMedia": true
+    },
+    {
+      "id": "korean-cafe-basics",
+      "title": "Korean Café & Ordering Basics",
+      "description": "Polite counter expressions, drink customizations, and bakery vocabulary heard daily in Seoul cafés.",
+      "icon": "☕",
+      "color": "#EC4899",
+      "category": "languages",
+      "subject": "korean",
+      "tags": [
+        "korean",
+        "hangul",
+        "cafe",
+        "ordering"
+      ],
+      "cardCount": 23,
+      "path": "decks/korean-cafe-basics",
+      "fields": [
+        {
+          "column": "korean",
+          "label": "Korean",
+          "type": "text",
+          "lang": "ko-KR",
+          "role": "subject"
+        },
+        {
+          "column": "romanization",
+          "label": "Romanization",
+          "type": "text",
+          "lang": "en-US",
+          "role": "none"
+        },
+        {
+          "column": "english",
+          "label": "Meaning",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "note",
+          "label": "Usage Tip",
+          "type": "text",
+          "lang": "en-US",
+          "role": "none"
+        }
+      ],
+      "hasMedia": false
+    },
+    {
+      "id": "mcat-biochemistry",
+      "title": "MCAT Biochemistry High-Yield",
+      "description": "Rate-limiting metabolic enzymes, Michaelis-Menten kinetics, and amino acid side-chain classification.",
+      "icon": "🧬",
+      "color": "#8B5CF6",
+      "category": "exams",
+      "subject": "mcat",
+      "tags": [
+        "mcat",
+        "biochemistry",
+        "enzymes",
+        "premed"
+      ],
+      "cardCount": 24,
+      "path": "decks/mcat-biochemistry",
+      "fields": [
+        {
+          "column": "topic",
+          "label": "Enzyme / Kinetic Concept",
+          "type": "text",
+          "lang": "en-US",
+          "role": "subject"
+        },
+        {
+          "column": "answer",
+          "label": "High-Yield Answer",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "regulation",
+          "label": "Regulation / Detail",
+          "type": "text",
+          "lang": "en-US",
+          "role": "none"
+        }
+      ],
+      "hasMedia": false
+    },
+    {
+      "id": "neurobiology-memory",
+      "title": "Neurobiology of Memory & Plasticity",
+      "description": "Synaptic plasticity, hippocampal consolidation, and cellular mechanisms of long-term potentiation with receptor diagram.",
+      "icon": "🧠",
+      "color": "#6366F1",
+      "category": "science",
+      "subject": "neuroscience",
+      "tags": [
+        "neuroscience",
+        "memory",
+        "ltp",
+        "biology",
+        "media"
+      ],
+      "cardCount": 24,
+      "path": "decks/neurobiology-memory",
+      "fields": [
+        {
+          "column": "concept",
+          "label": "Mechanism / Structure",
+          "type": "text",
+          "lang": "en-US",
+          "role": "subject"
+        },
+        {
+          "column": "explanation",
+          "label": "Cellular Function",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "diagram",
+          "label": "Synapse Diagram",
+          "type": "image",
+          "lang": "en-US",
+          "role": "none"
+        }
+      ],
+      "hasMedia": true
+    },
+    {
+      "id": "spanish-everyday",
+      "title": "Spanish Everyday Connectors",
+      "description": "Natural conversational transitions, polite phrases, and high-utility verbs for smooth daily dialogue.",
+      "icon": "🥘",
+      "color": "#F97316",
+      "category": "languages",
+      "subject": "spanish",
+      "tags": [
+        "spanish",
+        "conversation",
+        "fluency",
+        "cefr-b1"
+      ],
+      "cardCount": 24,
+      "path": "decks/spanish-everyday",
+      "fields": [
+        {
+          "column": "spanish",
+          "label": "Spanish",
+          "type": "text",
+          "lang": "es-ES",
+          "role": "subject"
+        },
+        {
+          "column": "english",
+          "label": "English",
+          "type": "text",
+          "lang": "en-US",
+          "role": "target"
+        },
+        {
+          "column": "example",
+          "label": "In Context",
+          "type": "text",
+          "lang": "es-ES",
+          "role": "none"
+        }
+      ],
+      "hasMedia": false
+    }
+  ]
+}

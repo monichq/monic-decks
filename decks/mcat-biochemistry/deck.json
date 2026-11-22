@@ -1,0 +1,33 @@
+{
+  "id": "mcat-biochemistry",
+  "title": "MCAT Biochemistry High-Yield",
+  "description": "Rate-limiting metabolic enzymes, Michaelis-Menten kinetics, and amino acid side-chain classification.",
+  "icon": "🧬",
+  "color": "#8B5CF6",
+  "category": "exams",
+  "subject": "mcat",
+  "tags": ["mcat", "biochemistry", "enzymes", "premed"],
+  "fields": [
+    {
+      "column": "topic",
+      "label": "Enzyme / Kinetic Concept",
+      "type": "text",
+      "lang": "en-US",
+      "role": "subject"
+    },
+    {
+      "column": "answer",
+      "label": "High-Yield Answer",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "regulation",
+      "label": "Regulation / Detail",
+      "type": "text",
+      "lang": "en-US",
+      "role": "none"
+    }
+  ]
+}

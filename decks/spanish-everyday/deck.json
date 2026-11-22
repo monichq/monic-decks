@@ -1,0 +1,33 @@
+{
+  "id": "spanish-everyday",
+  "title": "Spanish Everyday Connectors",
+  "description": "Natural conversational transitions, polite phrases, and high-utility verbs for smooth daily dialogue.",
+  "icon": "🥘",
+  "color": "#F97316",
+  "category": "languages",
+  "subject": "spanish",
+  "tags": ["spanish", "conversation", "fluency", "cefr-b1"],
+  "fields": [
+    {
+      "column": "spanish",
+      "label": "Spanish",
+      "type": "text",
+      "lang": "es-ES",
+      "role": "subject"
+    },
+    {
+      "column": "english",
+      "label": "English",
+      "type": "text",
+      "lang": "en-US",
+      "role": "target"
+    },
+    {
+      "column": "example",
+      "label": "In Context",
+      "type": "text",
+      "lang": "es-ES",
+      "role": "none"
+    }
+  ]
+}
