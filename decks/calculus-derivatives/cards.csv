@@ -1,25 +1,25 @@
 id,expression,derivative,pitfall
-chain-rule,d/dx [f(g(x))],f'(g(x)) · g'(x),Don't forget to multiply by the inner derivative g'(x).
-product-rule,d/dx [u(x)v(x)],u'(x)v(x) + u(x)v'(x),Never equal to u'(x) · v'(x) alone.
-quotient-rule,d/dx [u / v],(u'v - uv') / v²,"Numerator order matters: u'v comes before uv'."
-exp-general,d/dx [aˣ] (a > 0),aˣ · ln(a),"Only when a = e does ln(e) = 1 drop out."
-ln-x,d/dx [ln(x)],1 / x (for x > 0),d/dx [ln|x|] also simplifies cleanly to 1/x for x != 0.
-arctan-x,d/dx [arctan(x)],1 / (1 + x²),"No square root in the denominator unlike arcsin(x)."
-arcsin-x,d/dx [arcsin(x)],1 / √(1 - x²),Restricted to |x| < 1 where slopes stay finite.
-ftc-part1,d/dx ∫ₐˣ f(t) dt,f(x) (when f is continuous),If upper bound is g(x) use chain rule: f(g(x)) · g'(x).
-power-rule,d/dx [xⁿ],n · xⁿ⁻¹ (for any real n),Does not apply to xˣ because the exponent also varies with x.
-exp-natural,d/dx [eˣ],eˣ,Do not apply the power rule to get x · eˣ⁻¹; apply chain rule if the exponent is g(x).
-log-base-a,d/dx [logₐ(x)] (a > 0; a != 1),1 / (x · ln(a)),ln(a) sits in the denominator—unlike d/dx [aˣ] where ln(a) multiplies.
-sin-x,d/dx [sin(x)],cos(x),Formula assumes x is in radians; degree mode introduces a π/180 factor.
-cos-x,d/dx [cos(x)],-sin(x),"Watch the minus sign—co-functions (cos, cot, csc) always differentiate negatively."
-tan-x,d/dx [tan(x)],sec²(x),Not 1/cos(x); cosine is squared in the denominator (1 / cos²(x)).
-sec-x,d/dx [sec(x)],sec(x) · tan(x),Do not confuse with d/dx [tan(x)] = sec²(x).
-csc-x,d/dx [csc(x)],-csc(x) · cot(x),"Remember the negative sign and note csc pairs with cot, not tan."
-cot-x,d/dx [cot(x)],-csc²(x),"Carries a negative sign and uses csc², mirroring tan(x) -> sec²(x)."
-arccos-x,d/dx [arccos(x)],-1 / √(1 - x²),Exact negative of d/dx [arcsin(x)] since arcsin(x) + arccos(x) = π/2.
-arcsec-x,d/dx [arcsec(x)] (principal range [0; π]),1 / (|x| √(x² - 1)),Absolute value |x| ensures the derivative stays positive for both x > 1 and x < -1.
-inverse-function-deriv,d/dx [f⁻¹(x)],1 / f'(f⁻¹(x)),Evaluate f' at f⁻¹(x)—not at x—and check that f'(f⁻¹(x)) != 0.
-log-diff-xx,d/dx [xˣ] (x > 0),xˣ · (ln(x) + 1),Neither x · xˣ⁻¹ nor xˣ · ln(x); rewrite as e^(x ln x) or use logarithmic differentiation.
-ftc-part2,∫ₐᵇ f(x) dx (where F' = f),F(b) - F(a),"Requires f to be integrable (continuous) on [a, b]; watch discontinuities like 1/x² across 0."
-leibniz-integral,d/dx ∫_{g(x)}^{h(x)} f(t) dt,f(h(x)) · h'(x) - f(g(x)) · g'(x),Must subtract f(g(x)) · g'(x) when the lower limit also depends on x.
-lhopital-rule,"lim_{x->c} f(x)/g(x) (0/0 or ∞/∞)",lim_{x->c} f'(x)/g'(x) (if limit exists),Differentiate numerator and denominator separately—do not use quotient rule—and verify 0/0 or ∞/∞ first.
+chain-rule,$\frac{d}{dx}\left[f(g(x))\right]$,$f'(g(x))\cdot g'(x)$,Don't forget to multiply by the inner derivative $g'(x)$.
+product-rule,$\frac{d}{dx}\left[u(x)v(x)\right]$,$u'(x)v(x)+u(x)v'(x)$,Never equal to $u'(x)\cdot v'(x)$ alone.
+quotient-rule,$\frac{d}{dx}\left[\frac{u}{v}\right]$,$\frac{u'v-uv'}{v^2}$,Numerator order matters: $u'v$ comes before $uv'$.
+exp-general,$\frac{d}{dx}\left[a^x\right]\ (a>0)$,$a^x\ln a$,Only when $a=e$ does $\ln e=1$ drop out.
+ln-x,$\frac{d}{dx}[\ln x]$,$\frac{1}{x}\ (x>0)$,$\frac{d}{dx}[\ln|x|]$ also simplifies cleanly to $\frac{1}{x}$ for $x\neq0$.
+arctan-x,$\frac{d}{dx}[\arctan x]$,$\frac{1}{1+x^2}$,No square root in the denominator unlike $\arcsin x$.
+arcsin-x,$\frac{d}{dx}[\arcsin x]$,$\frac{1}{\sqrt{1-x^2}}$,Restricted to $|x|<1$ where slopes stay finite.
+ftc-part1,"$\frac{d}{dx}\int_a^x f(t)\,dt$",$f(x)\ \text{when } f \text{ is continuous}$,If upper bound is $g(x)$ use chain rule: $f(g(x))\cdot g'(x)$.
+power-rule,$\frac{d}{dx}\left[x^n\right]$,"$n\,x^{n-1}\ \text{for any real } n$",Does not apply to $x^x$ because the exponent also varies with $x$.
+exp-natural,$\frac{d}{dx}\left[e^x\right]$,$e^x$,Do not apply the power rule to get $x\cdot e^{x-1}$; apply chain rule if the exponent is $g(x)$.
+log-base-a,"$\frac{d}{dx}\left[\log_a x\right]\ (a>0,\ a\neq1)$",$\frac{1}{x\ln a}$,$\ln a$ sits in the denominator—unlike $\frac{d}{dx}[a^x]$ where $\ln a$ multiplies.
+sin-x,$\frac{d}{dx}[\sin x]$,$\cos x$,Formula assumes $x$ is in radians; degree mode introduces a $\pi/180$ factor.
+cos-x,$\frac{d}{dx}[\cos x]$,$-\sin x$,"Watch the minus sign—co-functions (cos, cot, csc) always differentiate negatively."
+tan-x,$\frac{d}{dx}[\tan x]$,$\sec^2 x$,Not $\frac{1}{\cos x}$; cosine is squared in the denominator ($\frac{1}{\cos^2 x}$).
+sec-x,$\frac{d}{dx}[\sec x]$,$\sec x\tan x$,Do not confuse with $\frac{d}{dx}[\tan x]=\sec^2 x$.
+csc-x,$\frac{d}{dx}[\csc x]$,$-\csc x\cot x$,"Remember the negative sign and note csc pairs with cot, not tan."
+cot-x,$\frac{d}{dx}[\cot x]$,$-\csc^2 x$,"Carries a negative sign and uses $\csc^2 x$, mirroring $\tan x\to\sec^2 x$."
+arccos-x,$\frac{d}{dx}[\arccos x]$,$-\frac{1}{\sqrt{1-x^2}}$,Exact negative of $\frac{d}{dx}[\arcsin x]$ since $\arcsin x+\arccos x=\pi/2$.
+arcsec-x,"$\frac{d}{dx}[\operatorname{arcsec} x]\ \text{(principal range } [0,\pi]\text{)}$",$\frac{1}{|x|\sqrt{x^2-1}}$,Absolute value $|x|$ ensures the derivative stays positive for both $x>1$ and $x<-1$.
+inverse-function-deriv,$\frac{d}{dx}\left[f^{-1}(x)\right]$,$\frac{1}{f'(f^{-1}(x))}$,Evaluate $f'$ at $f^{-1}(x)$—not at $x$—and check that $f'(f^{-1}(x))\neq0$.
+log-diff-xx,$\frac{d}{dx}[x^x]\ (x>0)$,$x^x(\ln x+1)$,Neither $x\cdot x^{x-1}$ nor $x^x\ln x$; rewrite as $e^{x\ln x}$ or use logarithmic differentiation.
+ftc-part2,"$\int_a^b f(x)\,dx\ \text{(where } F'=f\text{)}$",$F(b)-F(a)$,"Requires $f$ to be integrable (continuous) on $[a,b]$; watch discontinuities like $\frac{1}{x^2}$ across 0."
+leibniz-integral,"$\frac{d}{dx}\int_{g(x)}^{h(x)} f(t)\,dt$","$f(h(x))\,h'(x)-f(g(x))\,g'(x)$","Must subtract $f(g(x))\,g'(x)$ when the lower limit also depends on $x$."
+lhopital-rule,$\lim_{x\to c}\frac{f(x)}{g(x)}\ (0/0\text{ or }\infty/\infty)$,$\lim_{x\to c}\frac{f'(x)}{g'(x)}\ \text{(if limit exists)}$,Differentiate numerator and denominator separately—do not use quotient rule—and verify $0/0$ or $\infty/\infty$ first.
